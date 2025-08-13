@@ -17,3 +17,18 @@ function agregarAmigo() {
   }
   listaAmigos.innerHTML = lista;
 }
+console.log(amigos)
+
+function sortearAmigo() {
+  if (amigos.length > 1) {
+    console.log(amigos.length)
+    let ganador = Math.floor(Math.random()* amigos.length);
+    console.log(ganador);
+    console.log("El amigo sorteado es: " + amigos[ganador]);
+    listaAmigos.innerHTML = `<li class="result-list">El amigo secreto sorteado es: ${amigos[ganador]}</li>`
+    amigos = []
+  } else {
+    alert("No existen amigos para realizar el sorteo");
+  }
+  listaAmigos.innerHTML = ``
+}
