@@ -21,7 +21,6 @@ function agregarAmigo() {
 function sortearAmigo() {
   if (amigos.length > 1) {
     let ganador = Math.floor(Math.random()* amigos.length);
-    console.log("El amigo sorteado es: " + amigos[ganador]);
     listaAmigos.innerHTML = `<li class="result-list">El amigo secreto sorteado es: ${amigos[ganador]}</li>`
     amigos = []
   } else {
