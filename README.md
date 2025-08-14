@@ -1,8 +1,8 @@
-#🎁 Challenge Amigo Secreto - Alura Latam
+# 🎁 Challenge Amigo Secreto - Alura Latam
 
-Este proyecto es una aplicacion web para el sorte de "Amigo Secreto" entre un grupo de amigos. Los nombres se van a agregando a una lista y sortear de forma aleatoria a uno de ellos como amigo sorteado.
+Este proyecto es una aplicación web para el sorteo de "Amigo Secreto" entre un grupo de amigos. Los nombres se van agregando a una lista y se sortea de forma aleatoria a uno de ellos como amigo sorteado.
 
-## ✨ Caracteristicas
+## ✨ Características
 
 - **➕ Gestión de participantes**: Agrega nombres de amigos de forma sencilla a la lista de participantes
 - **👥 Visualización en tiempo real**: Ve todos los nombres agregados antes de realizar el sorteo
@@ -12,38 +12,38 @@ Este proyecto es una aplicacion web para el sorte de "Amigo Secreto" entre un gr
 
 ## 🚀 Demostración
 
+### 🌐 [Ver Proyecto en Vivo](https://ariel-plaza.github.io/challenge_amigo_secreto_alura/)
+
+¡Prueba la aplicación directamente en tu navegador! Haz clic en el enlace de arriba para acceder al proyecto funcional.
+
 ![Amigo Secreto Demo](assets/amigo-secreto.png)
 
 ## 📁 Estructura
 
 ```
 challenge-amigo-secreto/
-├── index.html              # Página principal de la aplicación
-├── style.css               # Estilos y diseño visual
-├── app.js                  # Lógica de la aplicación en JavaScript
-├── README.md               # Documentación del proyecto
+├── index.html                  # Página principal de la aplicación
+├── style.css                   # Estilos y diseño visual
+├── app.js                      # Lógica de la aplicación en JavaScript
+├── README.md                   # Documentación del proyecto
 └── assets/
-    ├── amigo-secreto.png   # Imagen de demostración
+    ├── amigo-secreto.png       # Imagen de demostración
     └── play_circle_outline.png # Icono del botón de sorteo
 ```
 
-
 ## 🛠️ Instalación y uso
 
-
-
-  1. Clona este repositorio o descarga los archivos.
-  ```bash
-   git clone https://github.com/tu-usuario/challenge-amigo-secreto.git
+1. Clona este repositorio o descarga los archivos:
+   ```bash
+   git clone https://github.com/Ariel-Plaza/challenge-amigo-secreto.git
    cd challenge-amigo-secreto
    ```
 
-  2. Haz doble clic en el archivo `index.html`, o abre tu navegador 
-    y arrastra el archivo `index.html` a la ventana.
+2. Haz doble clic en el archivo `index.html`, o abre tu navegador y arrastra el archivo `index.html` a la ventana.
 
-  3. Escribe los nombres de tus amigos y haz clic en "Añadir".
-  4. Cuando hayas agregado todos los nombres, haz clic en 
-    "Sortear  amigo" para realizar el sorteo.
+3. Escribe los nombres de tus amigos y haz clic en "Añadir".
+
+4. Cuando hayas agregado todos los nombres, haz clic en "Sortear amigo" para realizar el sorteo.
 
 ## 📝 Cómo Usar la Aplicación
 
@@ -61,14 +61,13 @@ challenge-amigo-secreto/
    - El sistema seleccionará aleatoriamente a uno de los participantes
    - El resultado se mostrará en pantalla
 
-## Tecnologías utilizadas
+## 💻 Tecnologías utilizadas
 
 - HTML5
 - CSS3
 - JavaScript
 
-## Créditos
-
+## 👤 Créditos
 
 **Ariel Plaza Salinas**
 - GitHub: [@Ariel-Plaza](https://github.com/Ariel-Plaza)
@@ -78,3 +77,4 @@ challenge-amigo-secreto/
 
 ⭐ Si te gustó este proyecto, ¡no olvides darle una estrella en GitHub!
 
+**Desarrollado con ❤️ para el Challenge de Alura Latam**
